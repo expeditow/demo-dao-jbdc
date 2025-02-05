@@ -45,7 +45,7 @@ public class DB {
 			props.load(is);
 			return props;
 		}*/
-		try(FileInputStream fs = new FileInputStream("db.propeties")){
+		try(FileInputStream fs = new FileInputStream("src/db.propeties")){
 			Properties props = new Properties();
 			props.load(fs);
 			return props;
